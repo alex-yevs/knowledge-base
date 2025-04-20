@@ -1,1 +1,1 @@
-github link: https://github.com/Vinzent03/obsidian-git
+github link: [GitHub - Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md](https://github.com/Vinzent03/obsidian-git)

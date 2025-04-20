@@ -1,8 +1,8 @@
-github link: https://github.com/twibiral/obsidian-execute-code
+github link: [GitHub - twibiral/obsidian-execute-code: Obsidian Plugin to execute code in a note.](https://github.com/twibiral/obsidian-execute-code)
 
 #### Настройка:
 - Включить WSL mode
 - Прописать путь до интерпретатора Python в виде:
 ```console
-/home/<username>/miniconda3/envs/practice/bin/python
+/home/<user_name>/miniconda3/envs/<env_name>/bin/python
 ```

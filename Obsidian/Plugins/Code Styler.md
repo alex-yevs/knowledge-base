@@ -1,1 +1,1 @@
-github link: https://github.com/mayurankv/Obsidian-Code-Styler
+github link: [GitHub - mayurankv/Obsidian-Code-Styler: A plugin for Obsidian.md for styling codeblocks and inline code](https://github.com/mayurankv/Obsidian-Code-Styler)

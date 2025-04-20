@@ -1,5 +1,9 @@
 [
   "code-styler",
   "execute-code",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-markdown-formatting-assistant-plugin",
+  "table-editor-obsidian",
+  "calendar",
+  "obsidian-auto-link-title"
 ]
