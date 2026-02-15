@@ -26,7 +26,6 @@ git config --global core.quotepath false
  ```console black:1
  docs/\320\241\320\276\321\205\321\200\320\260\320\275\320\270\321\202.txt
  ```
-   
 - `core.quotepath = false`: Git будет **показывать имена файлов в обычной форме**, если терминал поддерживает нужную кодировку (обычно UTF-8):
 ```console black:1
 docs/Сохранить.txt

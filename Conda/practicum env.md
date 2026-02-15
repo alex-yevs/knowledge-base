@@ -1,4 +1,6 @@
-Для создания виртуального окружения скачать файл по [ссылке](https://code.s3.yandex.net/data-analyst/da_practicum_env.yml). Этот файл содержит информацию о библиотеках, их версиях и названии окружения. Название файла - `da_practicum_env.yml`.
+
+Для создания виртуального окружения скачать файл по [ссылке](https://code.s3.yandex.net/data-analyst/da_practicum_env.yml). 
+Этот файл содержит информацию о библиотеках, их версиях и названии окружения. Название файла - `da_practicum_env.yml`.
 
 ```yml
 name: practicum
@@ -35,7 +37,8 @@ dependencies:
     - statsmodels==0.13.2
 prefix: /opt/conda
 ```
-## Создать виртуальное окружение
+
+### Создать виртуальное окружение
 
 В терминале Anaconda Prompt:
 
@@ -51,7 +54,7 @@ conda env create -f путь
 conda env create -f C:\Users\myuser\Downloads\da_practicum_env.yml 
 ```
 
-**Возможная ошибка**
+❗**Возможная ошибка**
 
 Если при установке окружения из файла возникнет ошибка **InvalidArchiveError:**
 ![](https://pictures.s3.yandex.net/resources/image_1698074935.png)
@@ -64,7 +67,7 @@ conda clean -a
 
 и пробуем снова создать окружение из файла `da_practicum_env.yml`.
 
-## Активируем окружение
+### Активируем окружение
 
 ```bash
 conda activate practicum 
@@ -103,7 +106,7 @@ jupyter nbextensions_configurator enable --user
 jupyter notebook
 ```
 
-Если произошла ошибка `Module notebook.app not found`, то модуль `notebook.app` в указанном скрипте нужно переименовать в `notebook.notebookapp`. Это можно сделать вручную. В тексте ошибки будет путь к файлу `jupyter-notebook-script.py` со скриптом. Открой `jupyter-notebook-script.py` в текстовом редакторе и замени строку:
+❗Если произошла ошибка `Module notebook.app not found`, то модуль `notebook.app` в указанном скрипте нужно переименовать в `notebook.notebookapp`. Это можно сделать вручную. В тексте ошибки будет путь к файлу `jupyter-notebook-script.py` со скриптом. Открой `jupyter-notebook-script.py` в текстовом редакторе и замени строку:
 
 ```bash
 from notebook.app import main
@@ -117,7 +120,7 @@ from notebook.notebookapp import main
 
 После этого сохрани файл и попробуй запустить Jupyter Notebook ещё раз в терминале Anaconda Prompt.
 
-Если после этого при попытке запуска Jupyter Notebook возникнет ошибка `warn() missing 1 required keyword-only argument: stacklevel` или похожая на неё, попробуй выполнить две команды в терминале Anaconda Prompt при активированном виртуальном окружении:
+❗Если после этого при попытке запуска Jupyter Notebook возникнет ошибка `warn() missing 1 required keyword-only argument: stacklevel` или похожая на неё, попробуй выполнить две команды в терминале Anaconda Prompt при активированном виртуальном окружении:
 
 ```bash
 pip uninstall traitlets
@@ -125,7 +128,7 @@ pip install traitlets==5.9.0
 ```
 
 Теперь попробуй снова запустить Jupyter Notebook в терминале Anaconda Prompt.
-## Если проблема с отображением sidebar `toc2`
+### Если проблема с отображением sidebar `toc2`
 
 Найти jupyter `custom.css` (если нет, создать), путь к custom CSS выглядит примерно так:
 
