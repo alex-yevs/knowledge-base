@@ -48,6 +48,16 @@ ls ~/.ssh
 ssh-keygen -t ed25519 -C "youremail@example.com"
 ```
 Нажимай Enter везде, можно оставить путь по умолчанию.
+
+#### Добавление или изменение пароля ключей:
+```shell
+ssh-keygen -p -f ~/.ssh/id_ed25519
+> Enter old passphrase: [Type old passphrase]
+> Key has comment 'your_email@example.com'
+> Enter new passphrase (empty for no passphrase): [Type new passphrase]
+> Enter same passphrase again: [Repeat the new passphrase]
+> Your identification has been saved with the new passphrase.
+```
 ___
 ## 4. Добавление SSH-ключа в ssh-agent
 ```bash

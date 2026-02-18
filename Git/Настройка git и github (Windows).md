@@ -75,6 +75,11 @@ git config --global user.email "youremail@example.com"
 
 git config --global core.quotepath false
 ```
+
+Проверить настройки можно так:
+```bash
+git config --list
+```
 ___
 ## 🔗 Шаг 6: Клонирование репозитория с GitHub (через SSH)
 ```bash
