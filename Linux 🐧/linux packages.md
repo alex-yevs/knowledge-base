@@ -6,5 +6,5 @@
 sudo apt update && sudo apt upgrade
 ```
 
-Windows не выполняет автоматическое обновление дистрибутивов Linux.
+
 
